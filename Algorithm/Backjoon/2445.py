@@ -17,3 +17,4 @@ for e in range(1,n):
     for i in range(0, g):
         print('*', end='')
     print('')
+# commit test
