@@ -26,3 +26,9 @@
 #     print("True1")
 # elif sorted(m) == sorted(k):
 #     print("True2")
+
+print(max([1,2,3]),type([1,2,3][0]))
+list=[1,2,3]
+n = max(list)
+list.remove(n)
+print(list)
