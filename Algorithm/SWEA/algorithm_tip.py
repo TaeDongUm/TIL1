@@ -26,3 +26,30 @@
 
 # lstrip(), rstrip(), strip() 각각 왼쪽, 오른쪽, 양쪽 공백 제거
 # 인자가 들어가면 각각 왼쪽에서부터, 오른쪽에서부터, 양쪽에서부터 인자 제거
+
+# deque2=deque(input())
+# print(deque2)
+# list = ''.join(deque2)
+# print(list)
+
+# from collections import deque
+# deque1=deque()
+# deque1=[1,2,3,4]
+# if deque1.pop() ==4: # 조건문을 실행해도 deque1에서 인자 빠져나감
+#     print(deque1)
+
+# deque1.pop()을 조건문에 넣게 되면 조건문이 실행될 때마다 pop이 일어남
+# 즉, 맨 마지막 elif문이 실행된다면, while문 한 싸이클에 총 4번의 pop이 일어남
+# 그래서 while문 한 싸이클에 한번의 pop이 일어나게 하려면
+# pop한 값을 변수에 넣어주고 그 변수를 조건문에 넣는 것이 좋다.
+# deque1=deque(input())
+# list = []
+# while len(deque1)>=1:
+#     if   deque1.pop() =='b':
+#         list.append('d')
+#     elif deque1.pop() =='d':
+#         list.append('b')
+#     elif deque1.pop() =='p':
+#         list.append('q')
+#     elif deque1.pop() =='q':
+#         list.append('p')
