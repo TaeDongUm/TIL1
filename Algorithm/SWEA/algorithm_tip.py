@@ -53,3 +53,15 @@
 #         list.append('q')
 #     elif deque1.pop() =='q':
 #         list.append('p')
+
+# binary=[1,1,0,1,0,1]
+# while M>0:
+#     binary.append(M%2)
+#     M =M//2
+# binary.reverse()
+# print(binary)
+x=[]
+y=[]
+for i in range(4,1):
+    y.append(i)
+    x.append(i)

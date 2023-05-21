@@ -27,8 +27,15 @@
 # elif sorted(m) == sorted(k):
 #     print("True2")
 
-print(max([1,2,3]),type([1,2,3][0]))
-list=[1,2,3]
-n = max(list)
-list.remove(n)
-print(list)
+# print(max([1,2,3]),type([1,2,3][0]))
+# list=[1,2,3]
+# n = max(list)
+# list.remove(n)
+# print(list)
+
+x=[]
+y=[]
+for i in range(4,0,-1):
+    y.append(i)
+    x.append(i)
+print(x,y)
